@@ -6,7 +6,7 @@ Build | Cppcheck | Codacy
 #               1.To monitor whether the seat is occupied or not
 #               2.To check the status of heater 
 #               3.Indicate it using LED actuator
-#Simulation results for various input conditions
+# Simulation results for various input conditions
 # Condition 1- Seat has not been occupied and also heater is off
 ![Image](https://github.com/256604/EmbeddedC/blob/main/simulation/Condition1.png)
 # Condition 2- Seat has not been occupied but heater is on
