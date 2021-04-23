@@ -11,3 +11,4 @@ Output 1-LED   |LED **glows** when both the inputs are high(i.e B0 and B1)|C0
 # Condition 3- Seat has been occupied but heater is off
 ![Image](https://github.com/256604/EmbeddedC/blob/main/simulation/Condition3.png)
 # Condition 4- Seat has been occupied and also heater is on
+![Image](https://github.com/256604/EmbeddedC/blob/main/simulation/Condition4.png)
