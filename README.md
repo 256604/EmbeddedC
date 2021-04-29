@@ -4,9 +4,9 @@ Build | Cppcheck | Codacy
 # CASE STUDY: SEAT TEMPERATURE CONTROL USING AVR PROGRAMMING(Atmegha 328)
 # Activity 1 
 
-#               1.To monitor whether the seat is occupied or not.
-#               2.To check the status of heater. 
-#               3.Indicate it using LED actuator.
+#              1.To monitor whether the seat is occupied or not.
+#              2.To check the status of heater. 
+#              3.Indicate it using LED actuator.
 
 Inputs/Outputs | Description | Port pin used 
 -------------- | ----------- | -------------
