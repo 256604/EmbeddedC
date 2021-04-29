@@ -8,7 +8,7 @@ int main(void)
 
 {   //LED configuration
 
-    DDRB|=(1<<PB5);//make C0 pin as output (LED)
+    DDRB|=(1<<PB5);//make B5 pin as output (LED)
 
     //Seat occupancy switch configuration
 
@@ -17,8 +17,8 @@ int main(void)
 
     //Heater switch configuration
 
-    DDRB&=~(1<<PB6);//clear B1 pin (Heater switch input)
-    PORTB|=(1<<PB6);//set B1 pin
+    DDRB&=~(1<<PB6);//clear B6 pin (Heater switch input)
+    PORTB|=(1<<PB6);//set B6 pin
 
     //ADC Enable
 
