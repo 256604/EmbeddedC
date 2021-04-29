@@ -1,10 +1,16 @@
-PROJ_NAME = Activity1
+PROJ_NAME = Seat_heating_application
 
 BUILD_DIR = Build
 
 # All Source code files
-SRC = src/main.c\
-src/fuse.c
+SRC = src/Activity1_GPIO.c\
+src/Activity2_ADC.c\
+src/Activity3_PWM.c\
+src/Activity4_USART.c\
+main.c\
+fuse.c
+
+INC = -I inc
 
 # Find out the OS and configure the variables accordingly
 ifdef OS	# All configurations for Windwos OS
@@ -39,7 +45,6 @@ $(BUILD_DIR):
 analysis: $(SRC)
 # Analyse the code using Cppcheck command line utility
 	cppcheck --enable=all $^
-
 doc:
 # Build the code code documentation using Doxygen command line utility
 	make -C documentation
