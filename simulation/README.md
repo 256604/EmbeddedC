@@ -16,5 +16,8 @@ Output 1-Oscilloscope |Oscilloscope to **view** the PWM pulse corresponding to t
 Inputs/Outputs | Description | Port pin used 
 -------------- | ----------- | -------------
 Output 1-Serial monitor |Serial monitor to **view** the temperature value |-
+# Simulation Result
+Circuit in OFF condition
+![image](https://github.com/256604/EmbeddedC/blob/main/simulation/Seat_heat_OFF.png)
 
 
