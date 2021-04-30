@@ -26,7 +26,7 @@ Input 1-Temperature sensor |Temperature sensor to **set** the seat temperature b
 
 # Activity 3
 
-#               1.To generate PWM pulses with varying duty cycle based on the temperature value set by the user.
+#               1.To generate PWM pulse with varying duty cycle based on the temperature value set by the user.
 
 Inputs/Outputs | Description | Port pin used 
 -------------- | ----------- | -------------
